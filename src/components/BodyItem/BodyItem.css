@@ -1,0 +1,32 @@
+.column1 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  background-color: beige;
+}
+
+.column2 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  background-color: bisque;
+}
+
+.imgStyle {
+  height: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.text {
+  text-align: center;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
